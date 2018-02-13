@@ -1,0 +1,37 @@
+.bod {
+	font-family: Arial;
+	text-decoration: line-through;
+}
+
+img:hover {
+	/*transform: scale(1.22);
+	transition: 1s;*/
+
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+.thumbnail {
+	size: 500px;
+}
+
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}

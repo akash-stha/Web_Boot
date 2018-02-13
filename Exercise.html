@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+
+		<label for="fname">First Name:</label>
+			<input id="fname" type="text" name="fname" placeholder="John" required="">
+
+		<label for="lname">Last Name:</label>
+			<input id="lname" type="text" name="lname" placeholder="Smith" required=""><br>
+
+		<label for="gender">Male:</label>
+			<input id="gender" type="radio" name="sex" value="Male">
+		<label for="gender">Female</label>
+			<input id="gender" type="radio" name="sex" value="Female">
+		<label for="gender">Other</label>
+			<input id="gender" type="radio" name="sex" value="Other"><br>
+
+		<label for="mail">Email:</label>
+			<input id="mail" type="email" name="email" placeholder="your email" required="">
+		<label for="password">Password:</label>
+			<input id="password" type="password" name="password" placeholder="your password" required=""><br>
+
+		
+		<div>
+		<label>Birthday:
+			<select aria-label:"Month" name="month" required="">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>Aug</option>
+				<option>Sept</option>
+			</select>
+
+			<select aria-label:"Day" name="day" required="">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>
+
+			<select aria-label:"Year" name="year" required="">
+				<option>Year</option>
+				<option>2018</option>
+				<option>2017</option>
+				<option>2016</option>
+				<option>2015</option>
+				<option>2014</option>
+				<option>2013</option>
+				<option>2012</option>
+				<option>2011</option>
+				<option>2010</option>
+			</select>
+			</label>
+		</div>
+		<div>
+			<label for="agree">I agree to the terms and conditions:</label>
+			<input id="agree" name="agreed" type="checkbox" required>
+		</div>
+		<button>Submit</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+/* font-family */
+
+/* 
+font-family: 'Risque', cursive;
+font-family: 'Macondo', cursive; 
+*/
+
+p:nth-of-type(1) {
+	font-family: Macondo;
+	font-size:30px;
+}
+
+p:nth-of-type(2) {
+	font-family: Risque;
+	font-size:30px;
+}
+
+h1{
+	font-family: Risque;
+}
+
+
+/* font-size */
+
+h1{
+	font-size: 50px
+}
+
+span{
+	font-size: 2.0em;
+	font-style: italic;
+	color: blue
+}
+
+/* font-weight */
+
+p{
+	font-weight: bold;
+}
+
+/* line-height */
+
+p{
+	line-height: 1.5
+}
+
+/* text-align */
+
+h1 {
+	text-align: center;
+}
+
+/* text-decoration */
+
+p{
+	text-decoration: line-through;
+}
